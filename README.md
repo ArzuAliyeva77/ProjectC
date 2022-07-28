@@ -1,2 +1,4 @@
-# ProjectC
+
 project c#
+
+The code starts by creating a new instance of the ChromeDriver class. This will launch a new instance of the Google Chrome browser.Next, the code navigates to the Amazon home page. Then, the code finds the search box element on the page and enters the search term "laptop". After that, the code finds the search button and clicks it.Next, the code finds the sort drop down and clicks on the "Price: Low to High" option.After that, the code waits for the products to sort. Next, the code creates a list to store the top 10 product details.Then, the code finds the top ten products on the page.Finally, the code loops through each product and gets the product details. These details are then added to the list.Once the loop is finished, the code writes the list of product details to a file called "AmazonBotResults.txt". 
